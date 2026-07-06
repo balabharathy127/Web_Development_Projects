@@ -1,0 +1,29 @@
+# --- Python Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+pyenv/
+
+# --- Environment Variables & Secrets ---
+.env
+*.env
+.env.*
+!.env.example  # Keep this so team members know what variables are needed
+
+# --- Python Cache & Compiled Files ---
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Database (Local Development) ---
+*.db
+*.sqlite3
+
+# --- OS & IDE Files ---
+.DS_Store
+Thmubs.db
+.vscode/
